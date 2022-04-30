@@ -1,0 +1,21 @@
+package co.edu.uco.crosscutting.util.numeric;
+
+import co.edu.uco.crosscutting.util.object.UtilObject;
+
+public class UtilNumeric {
+	private static final UtilNumeric INSTANCE = new UtilNumeric();
+	
+	private UtilNumeric() {
+		
+	}
+	
+	public static UtilNumeric getUtilObject() {
+		return INSTANCE;
+	}
+	
+	public <T extends Number> boolean isGreatherThan(T oneValue, T twoValue) {
+		return UtilObject.getUtilObject().getDefault(oneValue, 0).doubleValue() 
+				> 
+		UtilObject.getUtilObject().getDefault(twoValue, 0).doubleValue();
+	}
+}

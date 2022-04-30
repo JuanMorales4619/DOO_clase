@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="co.edu.uco.crosscuting"/>
+			<item value="co.edu.uco.grades"/>
+			<item value="co.edu.uco.grade"/>
+		</list>
+		<list key="name">
+			<item value="CrossCutting"/>
+			<item value="DTOGrades"/>
+			<item value="DataGrades"/>
+			<item value="BusinessLogicGrades"/>
+		</list>
+		<list key="artifactId">
+			<item value="CrossCutting"/>
+			<item value="DTOGrades"/>
+			<item value="DataGrades"/>
+			<item value="BusinessLogicGrades"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

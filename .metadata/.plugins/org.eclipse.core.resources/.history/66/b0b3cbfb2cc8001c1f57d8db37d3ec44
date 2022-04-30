@@ -1,0 +1,8 @@
+package co.edu.uco.grades.data.dao.azuresql;
+import co.edu.uco.grades.dto.Student_DTO;
+
+public class StudentAzureSqlDAO implements Student_DAO{
+
+	
+}
+
