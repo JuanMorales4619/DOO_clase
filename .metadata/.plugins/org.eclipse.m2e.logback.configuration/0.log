@@ -1656,3 +1656,554 @@ Caused by: org.eclipse.aether.transfer.ArtifactTransferException: org.apache.mav
 2022-04-29 21:26:47,146 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
 2022-04-29 21:26:47,147 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-04-29 21:26:47,147 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 18:12:27,305 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-06 18:12:30,748 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:12:30,750 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 18:12:30,753 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:12:30,754 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 18:28:37,541 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 18:28:37,546 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 18:28:37,552 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:28:37,554 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 18:28:37,555 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:28:37,557 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 18:29:06,072 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:29:06,074 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 18:29:06,084 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:29:06,086 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 18:33:54,568 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:33:54,569 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 18:33:54,571 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:33:54,572 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 18:37:26,974 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:37:26,976 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 18:37:26,977 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:37:26,978 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 18:49:24,443 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:49:24,444 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 18:49:24,445 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 18:49:24,446 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 19:05:17,546 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CrossCuttingGrades:CrossCuttingGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\CrossCuttingGrades\pom.xml.
+2022-05-06 19:05:17,752 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:05:17,753 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCuttingGrades\src\main\resources
+2022-05-06 19:05:17,754 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:05:17,755 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCuttingGrades\src\test\resources
+2022-05-06 19:05:17,810 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CrossCuttingGrades/src
+2022-05-06 19:05:17,810 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CrossCuttingGrades/src/test/java because it overlaps with /CrossCuttingGrades/src
+2022-05-06 19:05:17,977 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-06 19:05:18,304 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CrossCuttingGrades:CrossCuttingGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\CrossCuttingGrades\pom.xml.
+2022-05-06 19:05:18,426 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CrossCuttingGrades/src
+2022-05-06 19:05:18,427 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CrossCuttingGrades/src/test/java because it overlaps with /CrossCuttingGrades/src
+2022-05-06 19:05:18,471 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-05-06 19:05:18,585 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:05:18,586 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCuttingGrades\src\main\resources
+2022-05-06 19:05:18,589 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:05:18,591 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCuttingGrades\src\test\resources
+2022-05-06 19:06:14,757 [Worker-30: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:06:14,758 [Worker-30: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:06:14,758 [Worker-30: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:06:14,773 [Worker-30: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:06:40,379 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\ApiGrades\pom.xml.
+2022-05-06 19:06:40,487 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:06:40,487 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:06:40,488 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:06:40,498 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:06:40,499 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: CrossCuttingGrades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-06 19:06:42,036 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:06:42,036 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:06:42,041 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-06 19:06:42,056 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:06:42,058 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:06:42,058 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:06:42,058 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:06:43,413 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:06:43,414 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:06:43,414 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:06:43,422 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:06:43,423 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: CrossCuttingGrades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-06 19:06:43,427 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:06:43,427 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:06:43,433 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-06 19:06:43,436 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:06:43,437 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:06:43,438 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:06:43,438 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:07:19,059 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\ApiGrades\pom.xml.
+2022-05-06 19:07:19,139 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:07:19,139 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:07:19,139 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:07:19,149 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:07:19,482 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:07:19,483 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:07:19,488 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:07:19,488 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:07:19,491 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:07:19,491 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:07:19,491 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:07:20,856 [Worker-37: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:07:20,856 [Worker-37: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:07:20,856 [Worker-37: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:07:20,869 [Worker-37: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:07:20,872 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:07:20,872 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:07:20,873 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-06 19:07:20,889 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:07:20,891 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:07:20,891 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:07:20,891 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:17:02,242 [Worker-32: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\CrossCutingGrades\pom.xml.
+2022-05-06 19:17:02,379 [Worker-32: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CrossCutingGrades/src
+2022-05-06 19:17:02,380 [Worker-32: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CrossCutingGrades/src/test/java because it overlaps with /CrossCutingGrades/src
+2022-05-06 19:17:02,499 [Worker-32: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-06 19:17:02,534 [Worker-32: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\CrossCutingGrades\pom.xml.
+2022-05-06 19:17:02,647 [Worker-32: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CrossCutingGrades/src
+2022-05-06 19:17:02,648 [Worker-32: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CrossCutingGrades/src/test/java because it overlaps with /CrossCutingGrades/src
+2022-05-06 19:17:02,689 [Worker-32: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-05-06 19:17:02,796 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:17:02,797 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 19:17:02,798 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:17:02,798 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 19:17:09,818 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:17:09,819 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 19:17:09,820 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:17:09,821 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 19:22:14,913 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\ApiGrades\pom.xml.
+2022-05-06 19:22:15,033 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:22:15,033 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:15,034 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:15,044 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:15,369 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:22:15,369 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:22:15,372 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:22:15,373 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:22:15,375 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:22:15,375 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:22:15,375 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:22:16,688 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:22:16,688 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:16,688 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:16,697 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:16,700 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:22:16,701 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:22:16,702 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-06 19:22:16,714 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:22:16,715 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:22:16,716 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:22:16,716 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:22:20,668 [Worker-43: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:20,669 [Worker-43: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:20,669 [Worker-43: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:35,046 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\pom.xml.
+2022-05-06 19:22:35,049 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:35,050 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:35,050 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:35,167 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\ApiGrades\pom.xml.
+2022-05-06 19:22:35,233 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:22:35,233 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:35,242 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:35,242 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:35,594 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:22:35,595 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\main\resources
+2022-05-06 19:22:35,596 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:22:35,597 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\test\resources
+2022-05-06 19:22:35,801 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:22:35,802 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:35,812 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:35,812 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:35,816 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:22:35,816 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:22:35,817 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-06 19:22:35,819 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:22:35,820 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:22:35,821 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:22:35,821 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:22:36,878 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:36,878 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:36,878 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:36,881 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:22:36,882 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\main\resources
+2022-05-06 19:22:36,883 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:22:36,884 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\test\resources
+2022-05-06 19:22:55,380 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\pom.xml.
+2022-05-06 19:22:55,384 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:55,384 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:55,384 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:55,384 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:22:55,486 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\ApiGrades\pom.xml.
+2022-05-06 19:22:55,551 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:22:55,551 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:55,551 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:22:55,560 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:55,560 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:55,800 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:22:55,801 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\main\resources
+2022-05-06 19:22:55,802 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:22:55,803 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\test\resources
+2022-05-06 19:22:56,003 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:22:56,003 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:56,003 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:22:56,012 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:56,012 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:56,130 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:22:56,130 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:22:56,136 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-06 19:22:56,152 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:22:56,156 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:22:56,156 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:22:56,156 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:22:57,240 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:22:57,241 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:22:57,241 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:22:57,242 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:22:57,248 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:22:57,249 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\main\resources
+2022-05-06 19:22:57,251 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:22:57,252 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\test\resources
+2022-05-06 19:23:02,978 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\ApiGrades\pom.xml.
+2022-05-06 19:23:03,058 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:23:03,058 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:03,067 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:03,067 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:23:03,068 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:03,356 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:23:03,356 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:23:03,360 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:23:03,360 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:23:03,362 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:23:03,362 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:23:03,363 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:23:04,609 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:23:04,609 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:04,618 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:04,618 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:23:04,618 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:04,621 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:23:04,621 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:23:04,622 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-06 19:23:04,636 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:23:04,638 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:23:04,638 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:23:04,638 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:23:27,631 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\DataGrades\pom.xml.
+2022-05-06 19:23:27,635 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:27,635 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:23:27,635 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:27,658 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\pom.xml.
+2022-05-06 19:23:27,659 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:27,659 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:23:27,659 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:27,659 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:27,766 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\ApiGrades\pom.xml.
+2022-05-06 19:23:27,843 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:23:27,844 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:27,852 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:27,852 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:23:27,852 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:28,149 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:28,150 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 19:23:28,151 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:28,152 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 19:23:28,160 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:28,160 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:23:28,160 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:28,160 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:28,163 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:28,164 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\main\resources
+2022-05-06 19:23:28,166 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:28,167 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\test\resources
+2022-05-06 19:23:28,316 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:23:28,316 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:28,328 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:28,328 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:23:28,328 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:28,331 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:23:28,332 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:23:28,332 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:23:28,332 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:23:28,334 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:23:28,334 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:23:28,334 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:23:29,408 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:29,409 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:23:29,409 [Worker-46: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:29,411 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:29,412 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 19:23:29,413 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:29,414 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 19:23:33,887 [Worker-39: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:23:49,205 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\DTOGrades\pom.xml.
+2022-05-06 19:23:49,207 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:49,230 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\DataGrades\pom.xml.
+2022-05-06 19:23:49,232 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:49,232 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:49,253 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\pom.xml.
+2022-05-06 19:23:49,255 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:49,255 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:49,255 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:49,375 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\ApiGrades\pom.xml.
+2022-05-06 19:23:49,443 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:23:49,443 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:49,452 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:49,452 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:49,833 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:49,835 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DTOGrades\src\main\resources
+2022-05-06 19:23:49,836 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:49,836 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DTOGrades\src\test\resources
+2022-05-06 19:23:49,869 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:49,869 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:49,871 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:49,872 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 19:23:49,873 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:49,874 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 19:23:49,888 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:49,888 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:49,888 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:49,890 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:49,891 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\main\resources
+2022-05-06 19:23:49,892 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:49,893 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\test\resources
+2022-05-06 19:23:50,100 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:23:50,100 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:23:50,109 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:23:50,109 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:50,216 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:23:50,216 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:23:50,219 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-06 19:23:50,230 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:23:50,232 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:23:50,232 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:23:50,232 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:23:51,320 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:23:51,323 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:51,324 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DTOGrades\src\main\resources
+2022-05-06 19:23:51,325 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:23:51,325 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DTOGrades\src\test\resources
+2022-05-06 19:24:50,063 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\CrossCutingGrades\pom.xml.
+2022-05-06 19:24:50,066 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:24:50,107 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\DTOGrades\pom.xml.
+2022-05-06 19:24:50,109 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:24:50,109 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:24:50,135 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\DataGrades\pom.xml.
+2022-05-06 19:24:50,136 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:24:50,137 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:24:50,137 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:24:50,166 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\pom.xml.
+2022-05-06 19:24:50,167 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:24:50,168 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:24:50,168 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:24:50,168 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:24:50,262 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\ApiGrades\pom.xml.
+2022-05-06 19:24:50,321 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:24:50,321 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:24:50,329 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:24:50,329 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:24:50,329 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:24:50,715 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:24:50,716 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 19:24:50,716 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:24:50,717 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 19:24:50,731 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:24:50,731 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:24:50,732 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:24:50,733 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DTOGrades\src\main\resources
+2022-05-06 19:24:50,734 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:24:50,734 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DTOGrades\src\test\resources
+2022-05-06 19:24:50,765 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:24:50,765 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:24:50,765 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:24:50,767 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:24:50,768 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 19:24:50,768 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:24:50,769 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 19:24:50,785 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:24:50,785 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:24:50,785 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:24:50,785 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:24:50,787 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:24:50,788 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\main\resources
+2022-05-06 19:24:50,789 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:24:50,790 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\BusinessLogicGrades\src\test\resources
+2022-05-06 19:24:50,995 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grade:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-06 19:24:50,995 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grade:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-06 19:24:51,004 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-06 19:24:51,004 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutingGrades: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCutingGrades/target/classes
+2022-05-06 19:24:51,004 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:24:51,117 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:24:51,117 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:24:51,120 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-06 19:24:51,132 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 19:24:51,134 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 19:24:51,134 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 19:24:51,134 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\ApiGrades\src\test\resources
+2022-05-06 19:25:54,443 [Worker-46: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:25:55,282 [Worker-47: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades:CrossCutingGrades:0.0.1-SNAPSHOT @ C:\Users\jmora\eclipse-workspace\CrossCutingGrades\pom.xml.
+2022-05-06 19:25:55,283 [Worker-47: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:25:55,441 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:25:55,442 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 19:25:55,443 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:25:55,444 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 19:27:26,786 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:27:26,788 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 19:27:26,789 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:27:26,791 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 19:27:46,003 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:27:46,004 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 19:27:46,005 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:27:46,006 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 19:28:57,665 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:28:57,666 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 19:28:57,667 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:28:57,668 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 19:30:11,680 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:30:11,681 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 19:30:11,682 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:30:11,683 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 19:34:03,775 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:34:03,776 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 19:34:03,777 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:34:03,778 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 19:38:06,398 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:38:06,399 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 19:38:06,400 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:38:06,400 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 19:40:18,957 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:40:18,958 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 19:40:18,960 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:40:18,960 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 19:43:09,700 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:43:09,701 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 19:43:09,702 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:43:09,703 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 19:47:51,584 [Worker-49: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscuting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-06 19:47:51,588 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:47:51,590 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 19:47:51,590 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:47:51,591 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 19:48:25,084 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:48:25,085 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 19:48:25,087 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:48:25,089 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 19:57:54,208 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:57:54,210 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 19:57:54,211 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:57:54,212 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 19:59:38,029 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:59:38,031 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 19:59:38,032 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 19:59:38,033 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:00:03,520 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:00:03,521 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:00:03,522 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:00:03,523 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:00:28,795 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:00:28,796 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:00:28,797 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:00:28,798 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:06:55,936 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:06:55,937 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:06:55,939 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:06:55,940 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:10:35,601 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:10:35,602 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:10:35,602 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:10:35,603 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:10:50,672 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:10:50,673 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:10:50,674 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:10:50,675 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:11:01,333 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:11:01,334 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:11:01,335 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:11:01,336 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:11:42,544 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:11:42,545 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:11:42,546 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:11:42,546 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:11:56,994 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:11:56,996 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:11:56,999 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:11:57,001 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:12:07,812 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:12:07,813 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:12:07,814 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:12:07,814 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:15:33,157 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:15:33,158 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:15:33,159 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:15:33,160 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:16:26,706 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:16:26,707 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:16:26,707 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:16:26,708 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:18:30,653 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:18:30,654 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:18:30,655 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:18:30,656 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:23:05,778 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:23:05,779 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:23:05,780 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:23:05,781 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:27:53,348 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:27:53,349 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:27:53,350 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:27:53,350 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:29:33,029 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:29:33,030 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:29:33,031 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:29:33,032 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:29:42,464 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:29:42,465 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 20:29:42,466 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:29:42,467 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 20:31:11,888 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:31:11,889 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 20:31:11,890 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:31:11,891 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 20:31:57,226 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:31:57,227 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 20:31:57,228 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:31:57,229 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 20:32:12,849 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:32:12,850 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 20:32:12,852 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:32:12,852 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 20:41:53,002 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:41:53,012 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 20:41:53,015 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:41:53,016 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 20:54:44,803 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:54:44,804 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 20:54:44,805 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 20:54:44,806 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 21:00:12,174 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:00:12,175 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 21:00:12,177 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:00:12,178 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 21:00:46,037 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:00:46,037 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 21:00:46,038 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:00:46,039 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 21:02:23,250 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:02:23,252 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 21:02:23,252 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:02:23,253 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 21:10:23,034 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:10:23,035 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 21:10:23,036 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:10:23,037 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources
+2022-05-06 21:11:21,357 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:11:21,358 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\main\resources
+2022-05-06 21:11:21,358 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:11:21,359 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutting\src\test\resources
+2022-05-06 21:14:38,541 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:14:38,542 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 21:14:38,543 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:14:38,544 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 21:15:06,996 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:15:06,997 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\main\resources
+2022-05-06 21:15:06,998 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:15:06,999 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\CrossCutingGrades\src\test\resources
+2022-05-06 21:22:45,453 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:22:45,454 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\main\resources
+2022-05-06 21:22:45,454 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:22:45,455 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jmora\eclipse-workspace\DataGrades\src\test\resources

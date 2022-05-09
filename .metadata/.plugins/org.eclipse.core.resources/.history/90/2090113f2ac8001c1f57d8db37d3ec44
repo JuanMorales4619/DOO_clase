@@ -1,5 +1,0 @@
-package co.edu.grades.data.dao;
-
-public interface StudentDAO {
-
-}

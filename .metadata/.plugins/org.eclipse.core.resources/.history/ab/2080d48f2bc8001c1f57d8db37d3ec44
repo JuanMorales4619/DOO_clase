@@ -1,5 +1,0 @@
-package co.edu.uco.grdes.data.factory;
-
-public abstract class DAOFactory {
-
-}

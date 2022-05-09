@@ -12,7 +12,7 @@ public abstract class DAOFactory {
 	}
 	public abstract void commit();
 	public abstract void rollback();
-	public abstract void openConnection();
+	protected abstract void openConnection();
 	public abstract void cleseConection();
 	public abstract void getConection();
 
