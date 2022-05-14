@@ -1,8 +1,20 @@
 package co.edu.uco.grades.data.dao.azuresql;
-import co.edu.uco.grades.dto.Student_DTO;
-import co.edu.grades.data.dao.StudentDAO;
+import java.sql.Connection;
 
-public class StudentAzureSqlDAO implements StudentDAO{
+import co.edu.grades.data.dao.StudentDAO;
+import co.edu.uco.grades.data.dao.connection.ConnectionSQL;
+import co.edu.uco.grades.dto.Student_DTO;
+
+public class StudentAzureSqlDAO extends ConnectionSQL implements StudentDAO{
+
+	private StudentAzureSqlDAO(Connection connection) {
+		super(connection);
+		
+	}
+	
+	public static StudentDAO build(Connection connection) {
+		return new StudentAzureSqlDAO(connection);
+	}
 
 	@Override
 	public void create(Student_DTO student) {
