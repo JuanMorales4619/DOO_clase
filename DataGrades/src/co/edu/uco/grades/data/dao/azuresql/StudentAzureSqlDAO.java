@@ -3,7 +3,7 @@ import java.sql.Connection;
 
 import co.edu.grades.data.dao.StudentDAO;
 import co.edu.uco.grades.data.dao.connection.ConnectionSQL;
-import co.edu.uco.grades.dto.Student_DTO;
+import co.edu.uco.grades.dto.StudentDTO;
 
 public class StudentAzureSqlDAO extends ConnectionSQL implements StudentDAO{
 
@@ -17,13 +17,13 @@ public class StudentAzureSqlDAO extends ConnectionSQL implements StudentDAO{
 	}
 
 	@Override
-	public void create(Student_DTO student) {
+	public void create(StudentDTO student) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void update(Student_DTO student) {
+	public void update(StudentDTO student) {
 		// TODO Auto-generated method stub
 		
 	}
@@ -35,7 +35,7 @@ public class StudentAzureSqlDAO extends ConnectionSQL implements StudentDAO{
 	}
 
 	@Override
-	public void find(Student_DTO student) {
+	public void find(StudentDTO student) {
 		// TODO Auto-generated method stub
 		
 	}

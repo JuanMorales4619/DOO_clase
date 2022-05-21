@@ -1,9 +1,10 @@
 package co.edu.grades.data.dao;
-import co.edu.uco.grades.dto.Student_DTO;
+
+import co.edu.uco.grades.dto.StudentDTO;
 
 public interface StudentDAO {
-	void create(Student_DTO student);
-	void update(Student_DTO student);
+	void create(StudentDTO student);
+	void update(StudentDTO student);
 	void delete(int id);
-	void find(Student_DTO student);
+	void find(StudentDTO student);
 }

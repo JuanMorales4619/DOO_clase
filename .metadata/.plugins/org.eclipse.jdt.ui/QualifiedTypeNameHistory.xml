@@ -3,10 +3,22 @@
     <fullyQualifiedTypeName name="TS.Pais"/>
     <fullyQualifiedTypeName name="TS.Departamento"/>
     <fullyQualifiedTypeName name="co.edu.uco.grades.dto.Student_DTO"/>
-    <fullyQualifiedTypeName name="co.edu.grades.data.dao.StudentDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscuting.exeption.GeneralExeption"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.crosscuting.exeption.enumeration.ExeptionType"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grdes.data.factory.DAOFactory"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="co.edu.uco.corsscuting.util.sql.UtilConnection"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.azuresql.StudentAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.grades.data.dao.StudentDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="co.edu.uco.grades.crosscuting.exception.GradesException"/>
+    <fullyQualifiedTypeName name="co.edu.grades.data.dao.IdTypeDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.numeric.UtilNumeric"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.text.UtilText"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.dto.IdTypeDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.businesslogic.business.IdTypeBusiness"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
 </qualifiedTypeNameHistroy>
