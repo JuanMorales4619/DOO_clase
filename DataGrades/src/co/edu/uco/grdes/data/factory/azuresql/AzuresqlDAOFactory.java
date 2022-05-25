@@ -4,13 +4,27 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import co.edu.grades.data.dao.AttendanceDAO;
+import co.edu.grades.data.dao.CourseDAO;
 import co.edu.grades.data.dao.IdTypeDAO;
+import co.edu.grades.data.dao.ProfessorDAO;
+import co.edu.grades.data.dao.SessionDAO;
+import co.edu.grades.data.dao.StudentCourseDAO;
+import co.edu.grades.data.dao.StudentCourseStateDAO;
 import co.edu.grades.data.dao.StudentDAO;
-import co.edu.uco.corsscuting.util.sql.UtilConnection;
+import co.edu.grades.data.dao.SubjectDAO;
+import co.edu.uco.crosscutting.util.sql.UtilConnection;
 import co.edu.uco.grades.crosscuting.exception.GradesException;
 import co.edu.uco.grades.crosscuting.exeption.enumeration.ExceptionLocation;
+import co.edu.uco.grades.data.dao.azuresql.AttendanceAzureSqlDAO;
+import co.edu.uco.grades.data.dao.azuresql.CourseAzureSqlDAO;
 import co.edu.uco.grades.data.dao.azuresql.IdTypeAzureSqlDAO;
+import co.edu.uco.grades.data.dao.azuresql.ProfessorAzureSqlDAO;
+import co.edu.uco.grades.data.dao.azuresql.SessionAzureSqlDAO;
 import co.edu.uco.grades.data.dao.azuresql.StudentAzureSqlDAO;
+import co.edu.uco.grades.data.dao.azuresql.StudentCourseAzureSqlDAO;
+import co.edu.uco.grades.data.dao.azuresql.StudentCourseStateAzureSqlDAO;
+import co.edu.uco.grades.data.dao.azuresql.SubjectAzureSqlDAO;
 import co.edu.uco.grdes.data.factory.DAOFactory;
 
 public class AzuresqlDAOFactory extends DAOFactory {
@@ -49,10 +63,7 @@ public class AzuresqlDAOFactory extends DAOFactory {
 
 	}
 
-	@Override
-	public StudentDAO getStudentDAO(){
-		return StudentAzureSqlDAO.build(getConection());
-	}
+	
 
 	@Override
 	public void commitTransaction() {
@@ -161,10 +172,51 @@ public class AzuresqlDAOFactory extends DAOFactory {
 
 	}
 
+	
+	@Override
+	public AttendanceDAO getAttendanceDAO() {
+		// TODO Auto-generated method stub
+		return AttendanceAzureSqlDAO.build(getConection());
+	}
+	@Override
+	public CourseDAO getCourseDAO() {
+		// TODO Auto-generated method stub
+		return CourseAzureSqlDAO.build(getConection());
+	}
 	@Override
 	public IdTypeDAO getIdTypeDAO() {
 		return IdTypeAzureSqlDAO.build(getConection());
 	}
+	@Override
+	public ProfessorDAO getProfessorDAO() {
+		// TODO Auto-generated method stub
+		return ProfessorAzureSqlDAO.build(getConection());
+	}
+	@Override
+	public SessionDAO getSessionDAO() {
+		// TODO Auto-generated method stub
+		return SessionAzureSqlDAO.build(getConection());
+	}
+	@Override
+	public StudentCourseDAO getStudentCourseDAO() {
+		// TODO Auto-generated method stub
+		return StudentCourseAzureSqlDAO.build(getConection());
+	}
+	@Override
+	public StudentCourseStateDAO getStudentCourseStateDAO() {
+		// TODO Auto-generated method stub
+		return StudentCourseStateAzureSqlDAO.build(getConection());
+	}
+	@Override
+	public StudentDAO getStudentDAO(){
+		return StudentAzureSqlDAO.build(getConection());
+	}
+	@Override
+	public SubjectDAO getSubjectDAO() {
+		// TODO Auto-generated method stub
+		return SubjectAzureSqlDAO.build(getConection());
+	}
+	
 
 	
 }

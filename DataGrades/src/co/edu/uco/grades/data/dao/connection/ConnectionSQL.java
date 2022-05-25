@@ -2,7 +2,7 @@ package co.edu.uco.grades.data.dao.connection;
 
 import java.sql.Connection;
 
-import co.edu.uco.corsscuting.util.sql.UtilConnection;
+import co.edu.uco.crosscutting.util.sql.UtilConnection;
 import co.edu.uco.grades.crosscuting.exception.GradesException;
 
 public class ConnectionSQL {
@@ -10,7 +10,7 @@ public class ConnectionSQL {
 	
 	protected ConnectionSQL(Connection connection) {
 		if(UtilConnection.isClosed(connection)) {
-			throw GradesException.buildTechnicalDataExeption(
+			throw GradesException.buildTechnicalDataException(
 					"it's not possible to create the specific DAO because connection is closed");
 		}
 		setConnection(connection);

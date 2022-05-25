@@ -16,9 +16,24 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="co.edu.uco.grades.crosscuting.exception.GradesException"/>
     <fullyQualifiedTypeName name="co.edu.grades.data.dao.IdTypeDTO"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.numeric.UtilNumeric"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.text.UtilText"/>
     <fullyQualifiedTypeName name="co.edu.uco.grades.dto.IdTypeDTO"/>
     <fullyQualifiedTypeName name="co.edu.uco.businesslogic.business.IdTypeBusiness"/>
+    <fullyQualifiedTypeName name="co.edu.grades.data.dao.CourseDAO"/>
+    <fullyQualifiedTypeName name="co.edu.grades.data.dao.StudentCourseStateDAO"/>
+    <fullyQualifiedTypeName name="co.edu.grades.data.dao.SubjectDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.azuresql.AttendanceAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.azuresql.ProfessorAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.azuresql.SessionAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.azuresql.StudentCourseAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.azuresql.StudentCourseStateAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.azuresql.SubjectAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.dto.StudentCourseDTO"/>
+    <fullyQualifiedTypeName name="java.lang.Byte"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.text.UtilText"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.numeric.UtilNumeric"/>
 </qualifiedTypeNameHistroy>

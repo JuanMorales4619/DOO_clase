@@ -1,6 +1,6 @@
 package co.edu.uco.grades.crosscuting.exception;
 
-import co.edu.uco.crosscuting.exeption.GeneralExeption;
+import co.edu.uco.crosscutting.exeption.GeneralExeption;
 import co.edu.uco.crosscutting.util.object.UtilObject;
 import co.edu.uco.grades.crosscuting.exeption.enumeration.ExceptionLocation;
 import co.edu.uco.grades.crosscuting.exeption.enumeration.ExeptionType;
@@ -42,11 +42,11 @@ public class GradesException extends GeneralExeption {
 		return new GradesException(null, tecnicalMessage, rootException, ExeptionType.TECHNICAL, location);
 	}
 
-	public static GradesException buildTechnicalDataExeption(String tecnicalMessage) {
+	public static GradesException buildTechnicalDataException(String tecnicalMessage) {
 		return new GradesException(null, tecnicalMessage, null, ExeptionType.TECHNICAL, ExceptionLocation.DATA);
 	}
 
-	public static GradesException buildTechnicalDataExeption(String tecnicalMessage, Exception exception) {
+	public static GradesException buildTechnicalDataException(String tecnicalMessage, Exception exception) {
 		return new GradesException(null, tecnicalMessage, exception, ExeptionType.TECHNICAL, ExceptionLocation.DATA);
 	}
 	

@@ -22,9 +22,64 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 		// TODO Auto-generated constructor stub
 	}
 
+	public static IdTypeDAO build(Connection connection) {
+		return new IdTypeAzureSqlDAO(connection);
+	}
+
+	@Override
+	public void create(IdTypeDTO idType) {
+		String sql = "INSERT INTO IdType(name) VALUES (?)";
+
+		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
+
+			preparedStatement.setString(1, idType.getName());
+			preparedStatement.executeUpdate();
+
+		} catch (SQLException exception) {
+			throw GradesException.buildTechnicalDataException(
+					"There was a problem trying to create the new IdType on Azure SQL Server", exception);
+		} catch (Exception exception) {
+			throw GradesException.buildTechnicalDataException(
+					"An unexpected problem has ocurred trying to create the new IdType on Azure SQL Server", exception);
+		}
+
+	}
+
+	@Override
+	public void update(IdTypeDTO idType) {
+		String sql = "UPDATE IdType SET name = ?";
+
+		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
+
+			preparedStatement.setString(1, idType.getName());
+			preparedStatement.executeUpdate();
+
+		} catch (SQLException exception) {
+			throw GradesException.buildTechnicalDataException(
+					"There was a problem trying to create the new IdType on Azure SQL Server", exception);
+		} catch (Exception exception) {
+			throw GradesException.buildTechnicalDataException(
+					"An unexpected problem has ocurred trying to create the new IdType on Azure SQL Server", exception);
+		}
+
+	}
+
 	@Override
 	public void delete(int id) {
-		// TODO Auto-generated method stub
+		String sql = "DELETE FROM IdType WHERE id = ?";
+
+		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
+
+			preparedStatement.setInt(1, id);
+			preparedStatement.executeUpdate();
+
+		} catch (SQLException exception) {
+			throw GradesException.buildTechnicalDataException(
+					"There was a problem trying to create the new IdType on Azure SQL Server", exception);
+		} catch (Exception exception) {
+			throw GradesException.buildTechnicalDataException(
+					"An unexpected problem has ocurred trying to create the new IdType on Azure SQL Server", exception);
+		}
 
 	}
 
@@ -64,10 +119,10 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 		}
 
 		catch (SQLException exception) {
-			throw GradesException.buildTechnicalDataExeption(
+			throw GradesException.buildTechnicalDataException(
 					"There was a problem trying to recover the IdType on Azure SQL Server", exception);
 		} catch (Exception exception) {
-			throw GradesException.buildTechnicalDataExeption(
+			throw GradesException.buildTechnicalDataException(
 					"An unexpected has ocurred problem trying to recover the IdType on Azure SQL Server", exception);
 		}
 
@@ -88,10 +143,10 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 		}
 
 		catch (SQLException exception) {
-			throw GradesException.buildTechnicalDataExeption(
+			throw GradesException.buildTechnicalDataException(
 					"There was a problem trying to recover the IdType on Azure SQL Server", exception);
 		} catch (Exception exception) {
-			throw GradesException.buildTechnicalDataExeption(
+			throw GradesException.buildTechnicalDataException(
 					"An unexpected has ocurred problem trying to recover the IdType on Azure SQL Server", exception);
 		}
 
@@ -105,10 +160,10 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 			dto.setName(resultSet.getString("name"));
 
 		} catch (SQLException exception) {
-			throw GradesException.buildTechnicalDataExeption(
+			throw GradesException.buildTechnicalDataException(
 					"There was a problem trying to assamble the IdType on Azure SQL Server", exception);
 		} catch (Exception exception) {
-			throw GradesException.buildTechnicalDataExeption(
+			throw GradesException.buildTechnicalDataException(
 					"An unexpected has ocurred problem trying to assamble the IdType on Azure SQL Server", exception);
 		}
 
@@ -122,26 +177,13 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 			results = assembleResults(resultset);
 
 		} catch (SQLException exception) {
-			throw GradesException.buildTechnicalDataExeption(
+			throw GradesException.buildTechnicalDataException(
 					"There was a problem trying to delete the new IdType on Azure SQL Server", exception);
 		} catch (Exception exception) {
-			throw GradesException.buildTechnicalDataExeption(
+			throw GradesException.buildTechnicalDataException(
 					"An unexpected has ocurred problem trying to delete the new IdType on Azure SQL Server", exception);
 		}
 		return results;
 
 	}
-
-	@Override
-	public void create(IdTypeDTO idTypeDAO) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void update(IdTypeDTO idTypeDAO) {
-		// TODO Auto-generated method stub
-
-	}
-
 }
