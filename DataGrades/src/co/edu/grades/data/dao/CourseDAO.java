@@ -1,10 +1,10 @@
 package co.edu.grades.data.dao;
 
+import java.util.List;
+
 import co.edu.uco.grades.dto.CourseDTO;
 
 public interface CourseDAO {
 	void open(CourseDTO course);
-	void close(CourseDTO course);
-	void update(CourseDTO course);
-	void find(CourseDTO course);
+	List<CourseDTO> find(CourseDTO course);
 }

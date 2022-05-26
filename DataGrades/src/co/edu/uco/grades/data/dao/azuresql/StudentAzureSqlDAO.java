@@ -94,18 +94,24 @@ public class StudentAzureSqlDAO extends ConnectionSQL implements StudentDAO{
 
 		StringBuilder sb = new StringBuilder();
 		sb.append("SELEC id, name").append(UtilText.SPACE);
-		sb.append("FROM IdType").append(UtilText.SPACE);
+		sb.append("FROM Student").append(UtilText.SPACE);
 		if (!UtilObject.getUtilObject().isNull(student)) {
-			if (UtilNumeric.getUtilObject().isGreatherThan(student.getId(), 0)) {
+			if (!UtilNumeric.getUtilObject().isGreatherThan(student.getId(), 0)) {
 				sb.append("WHERE").append(UtilText.SPACE);
 				sb.append("id = ? ");
-				parameters.add(student.getName());
+				parameters.add(student.getId());
 				setWhere = false;
 			}
 			if (!UtilText.isEmpty(student.getName())) {
 				sb.append(setWhere ? "WHERE " : "AND");
 				sb.append("name = ? ");
 				parameters.add(UtilText.trim(student.getName()));
+				setWhere = false;
+			}
+			if (!UtilText.isEmpty(student.getName())) {
+				sb.append(setWhere ? "WHERE " : "AND");
+				sb.append("email = ? ");
+				parameters.add(UtilText.trim(student.getEmail()));
 			}
 		}
 
@@ -180,10 +186,10 @@ public class StudentAzureSqlDAO extends ConnectionSQL implements StudentDAO{
 
 		} catch (SQLException exception) {
 			throw GradesException.buildTechnicalDataException(
-					"There was a problem trying to delete the new student on Azure SQL Server", exception);
+					"There was a problem trying to commit the new student on Azure SQL Server", exception);
 		} catch (Exception exception) {
 			throw GradesException.buildTechnicalDataException(
-					"An unexpected has ocurred problem trying to delete the new student on Azure SQL Server", exception);
+					"An unexpected has ocurred problem trying to commit the student on Azure SQL Server", exception);
 		}
 		return results;
 

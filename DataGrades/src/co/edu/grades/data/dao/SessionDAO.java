@@ -1,9 +1,11 @@
 package co.edu.grades.data.dao;
 
+import java.util.List;
+
 import co.edu.uco.grades.dto.SessionDTO;
 
 public interface SessionDAO {
-	void open(SessionDTO session);
-	void close(SessionDTO session);
-	void find(SessionDTO session);
+	void start(SessionDTO session);
+	void update(SessionDTO session);
+	List<SessionDTO> find(SessionDTO session);
 }

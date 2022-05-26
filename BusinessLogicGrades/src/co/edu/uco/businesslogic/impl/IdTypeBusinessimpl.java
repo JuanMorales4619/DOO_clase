@@ -15,7 +15,7 @@ public class IdTypeBusinessimpl implements IdTypeBusiness {
 		if(UtilObject.getUtilObject().isNull(daoFactory)) {
 			throw GradesException.buildTechnicalBusinessLogicExeption("It's not possible create a IdTypeBusinessimpl when the DAOFactory is null");
 		}
-		this.daoFactory = daoFactory;
+		
 	}
 
 	@Override

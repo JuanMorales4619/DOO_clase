@@ -102,7 +102,7 @@ public class ProfessorAzureSqlDAO extends ConnectionSQL implements ProfessorDAO 
 			if (UtilNumeric.getUtilObject().isGreatherThan(professor.getId(), 0)) {
 				sb.append("WHERE").append(UtilText.SPACE);
 				sb.append("id = ? ");
-				parameters.add(professor.getName());
+				parameters.add(professor.getId());
 				setWhere = false;
 			}
 			if (!UtilText.isEmpty(professor.getName())) {

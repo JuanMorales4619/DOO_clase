@@ -1,6 +1,6 @@
 package co.edu.uco.grades.dto;
 
-import java.util.Date;
+import java.sql.Date;
 
 
 
@@ -18,7 +18,7 @@ public class SessionDTO {
 	public SessionDTO() {
 		super();
 		setCourseDTO(new CourseDTO());
-		setDate(new Date());
+		setDate(new Date(0));
 	}
 	public int getId() {
 		return id;
