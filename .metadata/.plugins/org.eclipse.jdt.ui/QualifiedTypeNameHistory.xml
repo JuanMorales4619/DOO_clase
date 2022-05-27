@@ -32,8 +32,9 @@
     <fullyQualifiedTypeName name="java.lang.Byte"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.numeric.UtilNumeric"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.text.UtilText"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.numeric.UtilNumeric"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.dto.AttendanceDTO"/>
 </qualifiedTypeNameHistroy>

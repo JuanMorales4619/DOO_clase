@@ -3,7 +3,8 @@ package co.edu.uco.grades.data.dao.azuresql;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
+import java.util.ArrayList;
+import java.util.List;
 import co.edu.grades.data.dao.StudentCourseDAO;
 import co.edu.uco.grades.crosscuting.exception.GradesException;
 import co.edu.uco.grades.data.dao.connection.ConnectionSQL;
@@ -81,9 +82,9 @@ public class StudentCourseAzureSqlDAO extends ConnectionSQL implements StudentCo
 	}
 
 	@Override
-	public void find(StudentCourseDTO studentCourse) {
-		// TODO Auto-generated method stub
-		
+	public List<StudentCourseDTO> find(StudentCourseDTO studentCourse) {
+		List<StudentCourseDTO> results = new ArrayList<>();
+		return results;
 	}
 
 }
