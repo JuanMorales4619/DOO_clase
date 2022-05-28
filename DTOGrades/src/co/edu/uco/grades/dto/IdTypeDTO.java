@@ -20,6 +20,7 @@ public class IdTypeDTO {
 	}
 	public IdTypeDTO() {
 		super();
+		setId(id);
 		setName(UtilText.EMPTY);
 	}
 
@@ -44,9 +45,9 @@ public class IdTypeDTO {
 		
 		if(UtilText.isEmpty(getName())){
 			validationMessage.add("Name of id type is requiered!!");
-		}else if(UtilText.getDefault(name).length()> 50) {
+		}else if(UtilText.getDefault(getName()).length()> 50) {
 			validationMessage.add("length of name of id type must be less or equals to 50 characcters!!!");
-		}else if(!UtilText.getDefault(getName()).matches("^[a-zA-ZñÑáÁéÉíÍóÓúÚ]*$")){
+		}else if(!UtilText.getDefault(getName()).matches("^[a-zA-ZñÑáÁéÉíÍóÓúÚ ]*$")){
 			validationMessage.add("length of name of id type must be less or equals to 50 characcters!!!");
 		}
 	}

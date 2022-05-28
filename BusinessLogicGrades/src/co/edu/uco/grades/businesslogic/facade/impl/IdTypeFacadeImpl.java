@@ -21,6 +21,7 @@ public class IdTypeFacadeImpl implements IdTypeFacade {
 			IdTypeBusiness idTypeBusiness = new IdTypeBusinessimpl(daoFactory);
 			idTypeBusiness.create(dto);
 			daoFactory.commitTransaction();
+			
 		} catch (GradesException exception) {
 			daoFactory.rollbackTransaction();
 			throw exception;
