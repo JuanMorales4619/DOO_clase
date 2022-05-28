@@ -49,11 +49,12 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 
 	@Override
 	public void update(IdTypeDTO idType) {
-		String sql = "UPDATE IdType SET name = ? WHERE id = ?";
+		String sql = "UPDATE IdType SET name = ? WHERE id = ? ";
 
 		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
 
 			preparedStatement.setString(1, idType.getName());
+			preparedStatement.setInt(2, idType.getId());
 			preparedStatement.executeUpdate();
 
 		} catch (SQLException exception) {

@@ -59,7 +59,7 @@ public class IdTypeBusinessimpl implements IdTypeBusiness {
 	
 	private void IdTypeExists(IdTypeDTO dto) {
 		List<IdTypeDTO> list = daoFactory.getIdTypeDAO().find(dto);
-		if(!list.isEmpty()) {
+		if(list.isEmpty()) {
 			var message ="the id type you are trying to modify does't exist";
 			throw GradesException.buildTBusinessLogicExeption(message);
 		}
