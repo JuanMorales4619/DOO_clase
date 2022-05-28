@@ -37,4 +37,8 @@
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
     <fullyQualifiedTypeName name="co.edu.uco.grades.dto.AttendanceDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.businesslogic.business.SubjectBusiness"/>
+    <fullyQualifiedTypeName name="co.edu.uco.businesslogic.business.ProfessorBusiness"/>
+    <fullyQualifiedTypeName name="co.edu.uco.businesslogic.business.StudentBusiness"/>
+    <fullyQualifiedTypeName name="co.edu.uco.businesslogic.business.StudentCourseStateBusiness"/>
 </qualifiedTypeNameHistroy>
