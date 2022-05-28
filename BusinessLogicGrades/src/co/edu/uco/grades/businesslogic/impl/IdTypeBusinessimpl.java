@@ -45,19 +45,20 @@ public class IdTypeBusinessimpl implements IdTypeBusiness {
 
 	@Override
 	public void update(IdTypeDTO dto) {
-		validateIfIdTypeDoesNotExceistWhitSameName(dto);
+		//validateIfIdTypeDoesNotExceistWhitSameName(dto);
 		daoFactory.getIdTypeDAO().update(dto);
 	}
 
 	@Override
 	public void delete(int id) {
-		IdTypeExists(new IdTypeDTO(id,UtilText.EMPTY));
-		ValidateIfIdTypeIsInUse(id);
+		//IdTypeExists(id);
+		//ValidateIfIdTypeIsInUse(id);
 		daoFactory.getIdTypeDAO().delete(id);
 		
 	}
 	
-	private void IdTypeExists(IdTypeDTO dto) {
+	private void IdTypeExists(int id) {
+		IdTypeDTO dto = new IdTypeDTO(id," ");
 		List<IdTypeDTO> list = daoFactory.getIdTypeDAO().find(dto);
 		if(list.isEmpty()) {
 			var message ="the id type you are trying to modify does't exist";

@@ -39,8 +39,8 @@ public class IdTypeController {
 
 	@PostMapping
 	public ResponseEntity<Response<IdTypeDTO>> create(@RequestBody IdTypeDTO dto) {
-
-		List<String> messages = new ArrayList<>();
+		Validator<IdTypeDTO> validator = new CreateIdTypeValidator();
+		List<String> messages = UtilObject.getUtilObject().getDefault( validator.validate(dto), new ArrayList<>());
 		Response<IdTypeDTO> response = new Response<>();
 		ResponseEntity<Response<IdTypeDTO>> responseEntity;
 		HttpStatus statusCode = HttpStatus.BAD_REQUEST;
@@ -80,8 +80,9 @@ public class IdTypeController {
 
 	@PutMapping("/{id}")
 	public ResponseEntity<Response<IdTypeDTO>> update(@PathVariable("id") int id, @RequestBody IdTypeDTO dto) {
-
-		List<String> messages = new ArrayList<>();
+		
+		Validator<IdTypeDTO> validator = new UpdateIdTypeValidator();
+		List<String> messages = UtilObject.getUtilObject().getDefault( validator.validate(dto), new ArrayList<>());
 		Response<IdTypeDTO> response = new Response<>();
 		ResponseEntity<Response<IdTypeDTO>> responseEntity;
 		HttpStatus statusCode = HttpStatus.BAD_REQUEST;

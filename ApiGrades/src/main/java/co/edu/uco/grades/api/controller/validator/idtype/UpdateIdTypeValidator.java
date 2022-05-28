@@ -17,7 +17,6 @@ public class UpdateIdTypeValidator implements Validator<IdTypeDTO> {
 			validationMessage.add("It's not posibble validate Id Type data");
 		}
 		
-		dto.validateName(validationMessage);
 		return validationMessage;
 	}
 
