@@ -7,7 +7,6 @@ import co.edu.uco.grades.dto.IdTypeDTO;
 public interface IdTypeFacade {
 	
 	
-	
 	void create(IdTypeDTO dto);
 
 	void update(IdTypeDTO dto);
